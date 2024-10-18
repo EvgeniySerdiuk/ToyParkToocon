@@ -1,0 +1,31 @@
+using Newtonsoft.Json.Linq;
+using UnityEngine;
+
+public class BuyFoodDealler : BuyField
+{
+    [SerializeField] private UpgradeWorkers upgradeWorkerField;
+    
+    protected override void Finish()
+    { 
+        gameObject.SetActive(false);
+        //Destroy(this.gameObject);
+    }
+    
+    public override JToken CaptureAsJToken()
+    {
+        JToken[] array = new JToken[2];
+        array[0] = JToken.FromObject(used);
+        array[1] = JToken.FromObject(upgradeWorkerField.CaptureAsJToken());
+        return JToken.FromObject(array);
+    }
+
+    public override void RestoreFromJToken(JToken state)
+    {
+        JToken[] array = state.ToObject<JToken[]>();
+        used = array[0].ToObject<bool>();
+        if(!used)
+            return;
+        Finish();
+        upgradeWorkerField.RestoreFromJToken(array[1]);
+    }
+}

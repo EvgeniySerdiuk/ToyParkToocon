@@ -1,0 +1,800 @@
+fileFormatVersion: 2
+guid: d11b26d339c50f04c9c1a48e22f4d392
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: smoke-particle-png-14_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1023.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829ae4803c5759047a109013b6c93c96
+      internalID: -71587293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1023.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392805d31d76806488875216538b2332
+      internalID: -625690085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1023.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bbded720c78d64f887edbae1200482
+      internalID: -1375347363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1023.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaaff8c3a73971448b07e7179d58f12
+      internalID: -405898388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1023.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af31157e461e13469152d7966db0a14
+      internalID: -264054938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1023.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bd208fa531fa944bdeab4323a56447
+      internalID: 557565837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c2c3c535b104d49a4ba8830b6aa7d7
+      internalID: -1377003798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c3e514600a5dc45908b7be4b43be5b
+      internalID: 1252548651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd2e55a60c6cd043bb06d688642d05c
+      internalID: 2068999519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01997daba6cef1b4e9a4ccd962ab41e5
+      internalID: -1193516326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193ab510eb65c9c46a3bf521f9867bf9
+      internalID: -1194378062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625b29c7e4a4f6a449f0b5162bd6d7d3
+      internalID: 1031656598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57320f1f7b0f7ac4e89fcaa068e8352a
+      internalID: 1357056518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 513.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e643167ee84254747acdf5003c8893b5
+      internalID: 807640400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 513.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd015d4384354a7488afd977a56f6072
+      internalID: -1678068943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 513.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b36184b16fc5040a96f2046e6bbe2a
+      internalID: 1678130266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 513.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c5359ca7cb586439835fa2b60bec27
+      internalID: 1318016761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 513.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe18f2444207f8408882f84d5c66f4d
+      internalID: -1614598277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dcf2537b25c65458841c754af75115
+      internalID: -1492478395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 258.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a53eaa5e0188fc49bca27561dd60b2f
+      internalID: -1816055768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 258.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c464fa83c27a74b82f874669691423
+      internalID: 203373291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 258.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d9fd5d053aecd41b3f80fc2eb0c1bc
+      internalID: -1052661529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 258.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434b39a0f95cbc345a1d8de741349955
+      internalID: -641268730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_23
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 258.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db3b00a379773f44b46ab3223ac246b
+      internalID: 393660016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ad21afd19f32a45ad4430170a04185
+      internalID: 1968858929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcef1d8832846946ac22effbc6f0d64
+      internalID: -1413274613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19453ec2747d26749a7bf63a7f6102c5
+      internalID: 724016712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f57a5a604e6cf84288928768ec63da2
+      internalID: 347589986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9350b0a5bc60e44ad237d8c254f14d
+      internalID: -427956076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-particle-png-14_29
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc3c2dbabffacf4a9c22aa64d8dc411
+      internalID: 468765521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fe4cf1c0dfba44a42a725b73b5b7c74f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      smoke-particle-png-14_0: -71587293
+      smoke-particle-png-14_1: -625690085
+      smoke-particle-png-14_10: -1194378062
+      smoke-particle-png-14_11: 1031656598
+      smoke-particle-png-14_12: 1357056518
+      smoke-particle-png-14_13: 807640400
+      smoke-particle-png-14_14: -1678068943
+      smoke-particle-png-14_15: 1678130266
+      smoke-particle-png-14_16: 1318016761
+      smoke-particle-png-14_17: -1614598277
+      smoke-particle-png-14_18: -1492478395
+      smoke-particle-png-14_19: -1816055768
+      smoke-particle-png-14_2: -1375347363
+      smoke-particle-png-14_20: 203373291
+      smoke-particle-png-14_21: -1052661529
+      smoke-particle-png-14_22: -641268730
+      smoke-particle-png-14_23: 393660016
+      smoke-particle-png-14_24: 1968858929
+      smoke-particle-png-14_25: -1413274613
+      smoke-particle-png-14_26: 724016712
+      smoke-particle-png-14_27: 347589986
+      smoke-particle-png-14_28: -427956076
+      smoke-particle-png-14_29: 468765521
+      smoke-particle-png-14_3: -405898388
+      smoke-particle-png-14_4: -264054938
+      smoke-particle-png-14_5: 557565837
+      smoke-particle-png-14_6: -1377003798
+      smoke-particle-png-14_7: 1252548651
+      smoke-particle-png-14_8: 2068999519
+      smoke-particle-png-14_9: -1193516326
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

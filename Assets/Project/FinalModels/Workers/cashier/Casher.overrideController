@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Casher
+  m_Controller: {fileID: 9100000, guid: 2827b9de58f9dfc4b8111a330d767dae, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 3b22a5eb5245ce54f8f5158e417856bf,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 5f35ff83938d1bd46a6019867c421826,
+      type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 48d54276856ae374ba9bd5a028d61271,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 8cb91722cc6b4f140887f51f0570f65d,
+      type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 9996a5ad111bab348b81642c1763fbe8,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: c63dbd4d003bdeb4587f42a0422932cf,
+      type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 7d7440d03529abb45ae9208e2aeb7470,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: d7fdedc9548fcac438da491f87fa31ab,
+      type: 3}

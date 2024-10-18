@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8af95b964f7491e98ee8aa193d03fc2, type: 3}
+  m_Name: WorkerStorage
+  m_EditorClassIdentifier: 
+  Storage:
+  - {fileID: 7241086748543436035, guid: e49d772b389b1c644a3746d6d8571090, type: 3}
+  - {fileID: 6467590911866670566, guid: 62dd7c51b2ae98b4db7d7a45531b1082, type: 3}
+  - {fileID: 5825576438307916377, guid: 80f0b01261d5aaf4a992ff601f2fce92, type: 3}
+  - {fileID: 393466326484612678, guid: e9492981109988246a38672a7523bb7f, type: 3}
+  Characteristics:
+  - Name: Cashier_L1
+    gidId: 74908256
+    HeaderText: Exchange tickets for money (non-refundable).
+    HeaderImage: {fileID: 21300000, guid: 99ba5626d09aab44d9b00fccb470550f, type: 3}
+    upgradableCharacteristics:
+    - Name: WorkSpeed
+      value:
+      - 2.6
+      - 2.3
+      - 2
+      UpgradeCost: e80300005802000052030000
+      Type: 2
+      currentLevel: 1
+  - Name: Cashier_L2
+    gidId: 119303942
+    HeaderText: Exchange tickets for money (non-refundable).
+    HeaderImage: {fileID: 21300000, guid: 99ba5626d09aab44d9b00fccb470550f, type: 3}
+    upgradableCharacteristics:
+    - Name: WorkSpeed
+      value:
+      - 2.6
+      - 2.3
+      - 2
+      UpgradeCost: a00f000060090000160d0000
+      Type: 2
+      currentLevel: 1
+  - Name: Cashier_L3
+    gidId: 1360972272
+    HeaderText: Exchange tickets for money (non-refundable).
+    HeaderImage: {fileID: 21300000, guid: 99ba5626d09aab44d9b00fccb470550f, type: 3}
+    upgradableCharacteristics:
+    - Name: WorkSpeed
+      value:
+      - 2.6
+      - 2.3
+      - 2
+      UpgradeCost: 401f0000c01200006a180000
+      Type: 2
+      currentLevel: 1
+  - Name: Donut Seller_L1
+    gidId: 133265193
+    HeaderText: Serves hotcakes to all our guests.
+    HeaderImage: {fileID: 21300000, guid: e427e230da4744a47a33af629410d35c, type: 3}
+    upgradableCharacteristics:
+    - Name: WorkSpeed
+      value:
+      - 3.2
+      - 3
+      - 2.7
+      UpgradeCost: e80300005802000052030000
+      Type: 2
+      currentLevel: 1
+  - Name: Donut Seller_L2
+    gidId: 1624598114
+    HeaderText: Serves hotcakes to all our guests.
+    HeaderImage: {fileID: 21300000, guid: e427e230da4744a47a33af629410d35c, type: 3}
+    upgradableCharacteristics:
+    - Name: WorkSpeed
+      value:
+      - 3.2
+      - 3
+      - 2.7
+      UpgradeCost: a00f000060090000160d0000
+      Type: 2
+      currentLevel: 1
+  - Name: Donut Seller_L3
+    gidId: 911596673
+    HeaderText: Serves hotcakes to all our guests.
+    HeaderImage: {fileID: 21300000, guid: e427e230da4744a47a33af629410d35c, type: 3}
+    upgradableCharacteristics:
+    - Name: WorkSpeed
+      value:
+      - 3.2
+      - 3
+      - 2.7
+      UpgradeCost: 401f0000c01200006a180000
+      Type: 2
+      currentLevel: 1
+  - Name: Cleaner_L1
+    gidId: 755642298
+    HeaderText: 'He will get his broom once, but now he cleans up by his hands (WC
+      included). '
+    HeaderImage: {fileID: 21300000, guid: 4bf6f0fca3860a840b4cba78eb4ab562, type: 3}
+    upgradableCharacteristics:
+    - Name: WorkSpeed
+      value:
+      - 2.6
+      - 2.3
+      - 2
+      UpgradeCost: e80300005802000048030000
+      Type: 2
+      currentLevel: 1
+    - Name: MoveSpeed
+      value:
+      - 2.4
+      - 2.6
+      - 2.8
+      UpgradeCost: e80300005802000048030000
+      Type: 5
+      currentLevel: 1
+  - Name: Cleaner_L2
+    gidId: 1972157386
+    HeaderText: 'He will get his broom once, but now he cleans up by his hands (WC
+      included). '
+    HeaderImage: {fileID: 21300000, guid: 4bf6f0fca3860a840b4cba78eb4ab562, type: 3}
+    upgradableCharacteristics:
+    - Name: WorkSpeed
+      value:
+      - 2.6
+      - 2.3
+      - 2
+      UpgradeCost: a00f000060090000160d0000
+      Type: 2
+      currentLevel: 1
+    - Name: MoveSpeed
+      value:
+      - 2.4
+      - 2.6
+      - 2.8
+      UpgradeCost: a00f000060090000160d0000
+      Type: 5
+      currentLevel: 1
+  - Name: Cleaner_L3
+    gidId: 1415540594
+    HeaderText: 'He will get his broom once, but now he cleans up by his hands (WC
+      included). '
+    HeaderImage: {fileID: 21300000, guid: 4bf6f0fca3860a840b4cba78eb4ab562, type: 3}
+    upgradableCharacteristics:
+    - Name: WorkSpeed
+      value:
+      - 2.6
+      - 2.3
+      - 2
+      UpgradeCost: 401f0000c01200006a180000
+      Type: 2
+      currentLevel: 1
+    - Name: MoveSpeed
+      value:
+      - 2.4
+      - 2.6
+      - 2.8
+      UpgradeCost: 401f0000c01200006a180000
+      Type: 5
+      currentLevel: 1
+  - Name: Loader_L1
+    gidId: 2022737019
+    HeaderText: Resupplies food and tickets.
+    HeaderImage: {fileID: 21300000, guid: cd32e781ad057ae45958185e4bd6a92c, type: 3}
+    upgradableCharacteristics:
+    - Name: InventoryCapacityWorker
+      value:
+      - 1
+      - 2
+      - 3
+      UpgradeCost: b0040000bc020000e8030000
+      Type: 3
+      currentLevel: 1
+    - Name: MoveSpeed
+      value:
+      - 2.4
+      - 2.6
+      - 2.8
+      UpgradeCost: b0040000bc020000e8030000
+      Type: 5
+      currentLevel: 1
+  - Name: Loader_L2
+    gidId: 1371803552
+    HeaderText: Resupplies food and tickets.
+    HeaderImage: {fileID: 21300000, guid: cd32e781ad057ae45958185e4bd6a92c, type: 3}
+    upgradableCharacteristics:
+    - Name: InventoryCapacityWorker
+      value:
+      - 1
+      - 2
+      - 3
+      UpgradeCost: a00f000060090000160d0000
+      Type: 3
+      currentLevel: 1
+    - Name: MoveSpeed
+      value:
+      - 2.4
+      - 2.6
+      - 2.8
+      UpgradeCost: a00f000060090000160d0000
+      Type: 5
+      currentLevel: 1
+  - Name: Loader_L3
+    gidId: 1366253841
+    HeaderText: Resupplies food and tickets.
+    HeaderImage: {fileID: 21300000, guid: cd32e781ad057ae45958185e4bd6a92c, type: 3}
+    upgradableCharacteristics:
+    - Name: InventoryCapacityWorker
+      value:
+      - 1
+      - 2
+      - 3
+      UpgradeCost: 401f0000c01200006a180000
+      Type: 3
+      currentLevel: 1
+    - Name: MoveSpeed
+      value:
+      - 2.4
+      - 2.6
+      - 2.8
+      UpgradeCost: 401f0000c01200006a180000
+      Type: 5
+      currentLevel: 1

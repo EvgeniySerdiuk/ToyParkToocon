@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AnimationForCastle_! 4
+  m_Controller: {fileID: 9100000, guid: f3a0609b11af1c1498c327a06a13f8c5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d790ad8b95ac8064ba9039ee24fbb88d, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 9ead7adeb18939b47a0c714bba6aac9c,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: a2b6cdd6fab4310438a27d5a14a24cba,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 9ead7adeb18939b47a0c714bba6aac9c,
+      type: 3}

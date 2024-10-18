@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa78f5ed13617fa4fbaa469c19d3a64f, type: 3}
+  m_Name: InteractiveBuildings
+  m_EditorClassIdentifier: 
+  AvailableBuildings:
+  - {fileID: 5935809863945573324, guid: 1dc42193359dd9f43b92a052b7274179, type: 3}
+  - {fileID: 8513223212987885827, guid: e069b5fbaca24144fb7a7e552f02a64a, type: 3}
+  - {fileID: 1086885575924055251, guid: 79e66dcf0a84d7446b41fc2b127743c7, type: 3}
+  - {fileID: 7456597796546672052, guid: 2d53ba70b571bcc4ca58599d5d481f97, type: 3}
+  - {fileID: 8756214062021951033, guid: f1d8f7d60fc1ae64a828f84f962d501b, type: 3}
+  - {fileID: 2181795554582043918, guid: 5f8e76f2dba381b42a275d7cb4c1c411, type: 3}
+  - {fileID: 8744356710842690096, guid: a36d816df9678a7458ca95269d19fc38, type: 3}
+  - {fileID: 8718934267148193907, guid: 7cdf1ba7ca828d945b95cac0abfbd090, type: 3}
+  Characteristics:
+  - Name: Duck Carousel_L1
+    gidId: 0
+    HeaderText: Want to get rich? Make a duck-friend.
+    HeaderImage: {fileID: 21300000, guid: 95d22af57f9c6db4fa08fe1f4f46a591, type: 3}
+    upgradableCharacteristics:
+    - Name: Capacity
+      value:
+      - 4
+      - 6
+      - 8
+      UpgradeCost: bc020000c201000058020000
+      Type: 0
+      currentLevel: 1
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: bc020000c201000058020000
+      Type: 4
+      currentLevel: 1
+    - Name: WorkSpeed
+      value:
+      - 20
+      - 18
+      - 15
+      UpgradeCost: bc020000c201000058020000
+      Type: 1
+      currentLevel: 1
+  - Name: Yula Centrifuge_L1
+    gidId: 607756271
+    HeaderText: "Not gonna lie \u2013 it\u2019s a dizzy ride! "
+    HeaderImage: {fileID: 21300000, guid: 1a5cbd45b023a13459f7a4a3a875ae3f, type: 3}
+    upgradableCharacteristics:
+    - Name: Capacity
+      value:
+      - 3
+      - 6
+      - 9
+      UpgradeCost: bc020000c201000058020000
+      Type: 0
+      currentLevel: 1
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: bc020000c201000058020000
+      Type: 4
+      currentLevel: 1
+    - Name: WorkSpeed
+      value:
+      - 20
+      - 18
+      - 15
+      UpgradeCost: bc020000c201000058020000
+      Type: 1
+      currentLevel: 1
+  - Name: Toilet 1_L1.1
+    gidId: 1346963348
+    HeaderText: Even the patient ones need to retire sometimes.
+    HeaderImage: {fileID: 21300000, guid: bb0895ac697741740b549915591d1379, type: 3}
+    upgradableCharacteristics:
+    - Name: PollutionFrequency
+      value:
+      - 10
+      - 12
+      - 15
+      UpgradeCost: bc020000c201000058020000
+      Type: 6
+      currentLevel: 1
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: bc020000c201000058020000
+      Type: 4
+      currentLevel: 1
+    - Name: WorkSpeed
+      value:
+      - 10
+      - 8
+      - 6
+      UpgradeCost: bc020000c201000058020000
+      Type: 1
+      currentLevel: 1
+  - Name: Food Track_L1_ID4
+    gidId: 1390577796
+    HeaderText: ' Here guests can taste the most delicious donuts and muffins. '
+    HeaderImage: {fileID: 21300000, guid: 7d02727f3f512cc4a8d9b33b125474a0, type: 3}
+    upgradableCharacteristics:
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: f40100002c010000c2010000
+      Type: 4
+      currentLevel: 1
+  - Name: Rocket_L2
+    gidId: 1356919399
+    HeaderText: Build the biggest and the fastest rocket on the Orbit!
+    HeaderImage: {fileID: 21300000, guid: f2804ae3e7a5c274cb421a8e3c5d03c0, type: 3}
+    upgradableCharacteristics:
+    - Name: Capacity
+      value:
+      - 4
+      - 6
+      - 8
+      UpgradeCost: f00a0000720600002e090000
+      Type: 0
+      currentLevel: 1
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: f00a0000720600002e090000
+      Type: 4
+      currentLevel: 2
+    - Name: WorkSpeed
+      value:
+      - 20
+      - 18
+      - 15
+      UpgradeCost: f00a0000720600002e090000
+      Type: 1
+      currentLevel: 1
+  - Name: Toy Castle_L2
+    gidId: 214819591
+    HeaderText: Throw a royal party in a medieval castle!
+    HeaderImage: {fileID: 21300000, guid: 9cc4df56d54027142b64c6f868b648d0, type: 3}
+    upgradableCharacteristics:
+    - Name: Capacity
+      value:
+      - 4
+      - 6
+      - 8
+      UpgradeCost: f00a0000720600002e090000
+      Type: 0
+      currentLevel: 1
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: f00a0000720600002e090000
+      Type: 4
+      currentLevel: 1
+    - Name: WorkSpeed
+      value:
+      - 20
+      - 18
+      - 15
+      UpgradeCost: f00a0000720600002e090000
+      Type: 1
+      currentLevel: 1
+  - Name: Toilet 1_L2.1
+    gidId: 2116264713
+    HeaderText: Even the patient ones need to retire sometimes.
+    HeaderImage: {fileID: 21300000, guid: bb0895ac697741740b549915591d1379, type: 3}
+    upgradableCharacteristics:
+    - Name: PollutionFrequency
+      value:
+      - 10
+      - 12
+      - 15
+      UpgradeCost: f00a0000720600002e090000
+      Type: 6
+      currentLevel: 1
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: f00a0000720600002e090000
+      Type: 4
+      currentLevel: 1
+    - Name: WorkSpeed
+      value:
+      - 10
+      - 8
+      - 6
+      UpgradeCost: f00a0000720600002e090000
+      Type: 1
+      currentLevel: 1
+  - Name: Food Track_L2
+    gidId: 1347124284
+    HeaderText: ' Here guests can taste the most delicious donuts and muffins. '
+    HeaderImage: {fileID: 21300000, guid: 7d02727f3f512cc4a8d9b33b125474a0, type: 3}
+    upgradableCharacteristics:
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: d0070000b004000072060000
+      Type: 4
+      currentLevel: 1
+  - Name: Ferris Wheel_L3
+    gidId: 1841002910
+    HeaderText: The whole park in the palm of your hands from here.
+    HeaderImage: {fileID: 21300000, guid: 7f2392f12ccface43845c52959c817ca, type: 3}
+    upgradableCharacteristics:
+    - Name: Capacity
+      value:
+      - 6
+      - 8
+      - 12
+      UpgradeCost: e0150000160d00005c120000
+      Type: 0
+      currentLevel: 1
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: e0150000160d00005c120000
+      Type: 4
+      currentLevel: 1
+    - Name: WorkSpeed
+      value:
+      - 20
+      - 18
+      - 15
+      UpgradeCost: e0150000160d00005c120000
+      Type: 1
+      currentLevel: 1
+  - Name: Shark Racing_L3
+    gidId: 735360094
+    HeaderText: Only the fastest sharks in the pool.
+    HeaderImage: {fileID: 21300000, guid: 102353c4411842c46bf746b81694ed84, type: 3}
+    upgradableCharacteristics:
+    - Name: Capacity
+      value:
+      - 4
+      - 5
+      - 6
+      UpgradeCost: e0150000160d00005c120000
+      Type: 0
+      currentLevel: 1
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: e0150000160d00005c120000
+      Type: 4
+      currentLevel: 1
+    - Name: WorkSpeed
+      value:
+      - 20
+      - 18
+      - 15
+      UpgradeCost: e0150000160d00005c120000
+      Type: 1
+      currentLevel: 1
+  - Name: Toilet 1_L3.1
+    gidId: 822386472
+    HeaderText: Even the patient ones need to retire sometimes.
+    HeaderImage: {fileID: 21300000, guid: bb0895ac697741740b549915591d1379, type: 3}
+    upgradableCharacteristics:
+    - Name: PollutionFrequency
+      value:
+      - 10
+      - 12
+      - 15
+      UpgradeCost: e0150000160d00005c120000
+      Type: 6
+      currentLevel: 1
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: e0150000160d00005c120000
+      Type: 4
+      currentLevel: 1
+    - Name: WorkSpeed
+      value:
+      - 10
+      - 8
+      - 6
+      UpgradeCost: e0150000160d00005c120000
+      Type: 1
+      currentLevel: 1
+  - Name: Food Track_L3
+    gidId: 631114925
+    HeaderText: ' Here guests can taste the most delicious donuts and muffins. '
+    HeaderImage: {fileID: 21300000, guid: 7d02727f3f512cc4a8d9b33b125474a0, type: 3}
+    upgradableCharacteristics:
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: a00f000060090000160d0000
+      Type: 4
+      currentLevel: 1
+  - Name: Toilet 2_L1.2
+    gidId: 1219678458
+    HeaderText: Even the patient ones need to retire sometimes.
+    HeaderImage: {fileID: 21300000, guid: bb0895ac697741740b549915591d1379, type: 3}
+    upgradableCharacteristics:
+    - Name: PollutionFrequency
+      value:
+      - 10
+      - 12
+      - 15
+      UpgradeCost: bc020000c201000058020000
+      Type: 6
+      currentLevel: 1
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: bc020000c201000058020000
+      Type: 4
+      currentLevel: 1
+    - Name: WorkSpeed
+      value:
+      - 10
+      - 8
+      - 6
+      UpgradeCost: bc020000c201000058020000
+      Type: 1
+      currentLevel: 1
+  - Name: Toilet 2_L2.2
+    gidId: 2137269114
+    HeaderText: Even the patient ones need to retire sometimes.
+    HeaderImage: {fileID: 21300000, guid: bb0895ac697741740b549915591d1379, type: 3}
+    upgradableCharacteristics:
+    - Name: PollutionFrequency
+      value:
+      - 10
+      - 12
+      - 15
+      UpgradeCost: f00a0000720600002e090000
+      Type: 6
+      currentLevel: 1
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: f00a0000720600002e090000
+      Type: 4
+      currentLevel: 1
+    - Name: WorkSpeed
+      value:
+      - 10
+      - 8
+      - 6
+      UpgradeCost: f00a0000720600002e090000
+      Type: 1
+      currentLevel: 1
+  - Name: Toilet 2_L3.2
+    gidId: 1203925548
+    HeaderText: Even the patient ones need to retire sometimes.
+    HeaderImage: {fileID: 21300000, guid: bb0895ac697741740b549915591d1379, type: 3}
+    upgradableCharacteristics:
+    - Name: PollutionFrequency
+      value:
+      - 10
+      - 12
+      - 15
+      UpgradeCost: e0150000160d00005c120000
+      Type: 6
+      currentLevel: 1
+    - Name: TicketCost
+      value:
+      - 25
+      - 50
+      - 75
+      UpgradeCost: e0150000160d00005c120000
+      Type: 4
+      currentLevel: 1
+    - Name: WorkSpeed
+      value:
+      - 10
+      - 8
+      - 6
+      UpgradeCost: e0150000160d00005c120000
+      Type: 1
+      currentLevel: 1

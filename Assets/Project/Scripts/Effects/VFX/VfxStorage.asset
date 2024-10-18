@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb269ea298346bc94d93c2e83a045d3, type: 3}
+  m_Name: VfxStorage
+  m_EditorClassIdentifier: 
+  BuildingsBuyVfx:
+  - {fileID: 528289774391594872, guid: f09720cd152177d4eba1ea5782595411, type: 3}
+  - {fileID: 2266570041804577888, guid: b007b161f460bc94b9a807d22b046c16, type: 3}
+  - {fileID: 2184444693149103119, guid: 38b0c775c966ed24982d57aa19d18bf6, type: 3}
+  - {fileID: 6085962471886810674, guid: f3118365bf0c7e140aa0766498c3e0ab, type: 3}
+  - {fileID: 8630811657131589237, guid: f7da4aa88b04f0548a50d0d14f38d8d0, type: 3}
+  - {fileID: 6971340172850215993, guid: e84b121b9d0d1e148a9b16b53b8c7d75, type: 3}
+  - {fileID: 4883375613765761746, guid: 82b6dbbfa91958846bedd67bc5275fcc, type: 3}
+  - {fileID: 6881596791837131740, guid: 061bd04bb43024f4b9087be9a81fb48b, type: 3}
+  WorkersBuyVfx:
+  - {fileID: 2086689284201812932, guid: 9683b81f1c7a0a8489f7c2ab21995c52, type: 3}
+  - {fileID: 2086689284201812932, guid: 9683b81f1c7a0a8489f7c2ab21995c52, type: 3}
+  - {fileID: 2086689284201812932, guid: 9683b81f1c7a0a8489f7c2ab21995c52, type: 3}
+  - {fileID: 2086689284201812932, guid: 9683b81f1c7a0a8489f7c2ab21995c52, type: 3}

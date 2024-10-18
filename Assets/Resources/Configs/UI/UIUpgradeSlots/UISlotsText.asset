@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8265da4b94697bf44bb146b9edcaecad, type: 3}
+  m_Name: UISlotsText
+  m_EditorClassIdentifier: 
+  textForSlots:
+  - TitleText: Capacity
+    AbbreviationText: qty
+    Icon: {fileID: 21300000, guid: ac247c26dc5b4e044a33d0f586b92b05, type: 3}
+    Type: 0
+  - TitleText: Ride Time
+    AbbreviationText: sec
+    Icon: {fileID: 21300000, guid: ab74cf334c5bfe545897b811f1d6c588, type: 3}
+    Type: 1
+  - TitleText: Load time
+    AbbreviationText: sec
+    Icon: {fileID: 21300000, guid: ab74cf334c5bfe545897b811f1d6c588, type: 3}
+    Type: 2
+  - TitleText: Capacity
+    AbbreviationText: pcs
+    Icon: {fileID: 21300000, guid: 0be2fb7daf2a82c4585356a72ac535f4, type: 3}
+    Type: 3
+  - TitleText: Ticket Price
+    AbbreviationText: $
+    Icon: {fileID: 21300000, guid: 7719960950f894e45858bd9bec52c764, type: 3}
+    Type: 4
+  - TitleText: Move Speed
+    AbbreviationText: un
+    Icon: {fileID: 21300000, guid: fb555720bee3f9c4e9c73e73ecd2ee6d, type: 3}
+    Type: 5
+  - TitleText: Pollution
+    AbbreviationText: qty
+    Icon: {fileID: 21300000, guid: c738b429e69211f4a90961ceef27a38d, type: 3}
+    Type: 6
